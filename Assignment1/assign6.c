@@ -2,7 +2,7 @@
 int main()
 {
     int n;
-    printf("Enter integer(n): \n");
+    printf("Enter an integer(n): \n");
     scanf("%d",&n);
     
     if (n%5==0 && n%11==0)
@@ -20,4 +20,5 @@ int main()
     }
     
     return 0;
+
 }
